@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h1 {
+            color: blue;
+            font-family: verdana;
+            font-size: 300%
+        }
+        p {
+            color: red;
+            font-family: courier;
+            font-size: 300%;
+            border: 2px solid palegreen;
+        }
+    </style>
 </head>
 <body>
     <!--HTML Style - CSS
@@ -57,7 +72,7 @@
 
     <p style="color: red;">A red paragraph.</p>
 
-    <hr>
+    
 
     <!--Internal CSS
     
@@ -70,5 +85,96 @@
         page) to blue, and the text color of ALL the <p> elements to red. In
         addition, the page will be displayed with a "powderblue" background color:
     -->
+
+    <!--External CSS
+    
+    An External Style Sheet is used to defined the style for many HTML pages.
+
+    To use an external style sheet, add a link to it in the <head> section of each
+    HTML page:
+    -->
+
+    <h1>This is a heading</h1>
+
+    <p>this is a paragraph</p>
+
+    <!--The external style sheet can be written in any text editor. The File must not
+        contain any HTML code, and must be saved with a .css extension.
+    -->
+
+    <!--Tip: With an external style sheet, you can change the look of an entire web site, 
+        by changing one file !
+    -->
+    <!--CSS COlors, Fonts and Sizes
+    
+        Here, we will demonstrate some commonly used CSS properties. You will
+        learn more about later.
+
+        The CSS color property defines the text color to be sued.
+
+        The CSS font-family property defines the font to be used.
+
+        The CSS font-size property defines the test size to be used
+    -->
+
+    <hr>
+
+    <!--CSS Border
+    
+        The CSS border property defines a border around an HTML element.
+
+        Tip: you can define a border for nearly all HTML element.
+
+        p {
+            border: 2px solid powderblue;
+            padding: 30px
+        }
+    -->
+
+    <!--CSS Margin
+    
+        The CSS margin property defines a margin (space) outside the border.
+
+        p {
+            border: 2px solid powderblue;
+            margin: 50px;
+        }
+    -->
+
+    <!--Link to External CSS
+    
+        External style sheets can be referenced with a full URL or with a path relative
+        to the current web page.
+
+        <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+        This Example links to a style sheet in the html folder on the current 
+        web site
+
+        <link> rel="stylesheet" href="/html/style.css"
+    -->
+
+    <!--This example links to a style sheet located in the same folder as the current
+        page:
+
+        <link rel="stylesheet" href="styles.css">
+    -->
+
+    <!--Chapter summary
+        
+        . use the HTML style attribute for inline styleing
+        . use the HTMl <style> element to define internal CSS
+        . use the HTML <link> element to refer to an external CSS file
+        . use the HTML <head> element to store <style> and <link> elements
+        . use the CSS color property for text colors
+        . use the CSS font-family property for text fonts
+        . use the CSS font-size property for text sizes
+        . use the CSS border property for borders
+        . use the CSS padding property for space inside the border
+        . use the CSS margin property for space outside the border
+    -->
+
+
+
 </body>
 </html>
